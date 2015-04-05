@@ -25,9 +25,9 @@ edit: clean
 	./hugo server --watch
 
 publish: build commit push
-	# Publish locally committed content to gh-pages
-	git subtree push --prefix public origin gh-pages
+	# Publish locally committed content to master
+	git subtree push --prefix public origin master
 
 publish-nomessage: build commit-nomessage push
-	# Publish locally committed content to gh-pages
-	git subtree push --prefix public origin gh-pages
+	# Publish locally committed content to master
+	git subtree push --prefix public origin master
