@@ -7,7 +7,7 @@ title = "Matt Weagle"
   <tbody>
     <tr>
       <th><span class="fa fa-1x fa-envelope-o"></span>&nbsp;<span class="lead"><a href="mailto:mweagle@gmail.com" target="_blank">mweagle@gmail.com</a></span></th>
-      <th><span class="fa fa-1x fa-twitter">&nbsp;<span class="lead"><a href="http://twitter.com/@mweagle" target="_blank">@mweagle</a></span></th>
+      <th><span class="fa fa-1x fa-twitter">&nbsp;</span><span class="lead"><a href="http://twitter.com/@mweagle" target="_blank">@mweagle</a></span></th>
     </tr>
   </tbody>
 </table>
@@ -15,7 +15,6 @@ title = "Matt Weagle"
 ## Summary
 
 Business focused, hands-on software engineering manager with experience managing technical teams and products in fast evolving consumer services space.  Management experience is complemented by extensive technical history as Team Lead, Project Lead, and individual contributor.  Focus on building highly-available, fault-tolerant large-scale distributed systems.
-
 
 ## Experience
 
