@@ -1,0 +1,8 @@
+baseurl = "/"
+buildDrafts = "true"
+languageCode = "en-us"
+theme = "hugo-bootswatch"
+title = "Matt Weagle"
+
+[blackfriday]
+fractions = false
