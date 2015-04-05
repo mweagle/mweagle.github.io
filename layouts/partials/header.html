@@ -5,8 +5,35 @@
     <title>{{ .Site.Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/hugo-bootswatch.css">
     <link rel="stylesheet" href="/font-awesome-4.3.0/css/font-awesome.min.css">
+    <style>
+      @media print {
+        body
+        {
+          font-size: smaller
+        }
+        h1
+        {
+          font-size: 12pt;
+        }
+        .lead
+        {
+          font-size: 10pt;
+        }
+        h2
+        {
+          font-size: 11pt
+        }
+        h3, h4
+        {
+          font-size: smaller
+        }
+        a[href]:after {
+          content:none;
+        }
+      }
+    </style>
   </head>
   <body>
