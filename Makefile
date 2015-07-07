@@ -18,7 +18,7 @@ pull:
 	git pull origin site
 
 push:
-	git push origin site
+	git push -f origin site
 
 edit: clean
 	# Used for localhost editing
