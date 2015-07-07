@@ -68,7 +68,7 @@
 
         
         <div>
-            <h2><a href="/resume/">Matt Weagle</a></h2>
+            <h2><a href="http://localhost:1313/resume/">Matt Weagle</a></h2>
             <span class="lead">Sat, Mar 21, 2015</span>
             <p>&nbsp;mweagle@gmail.com &nbsp;@mweagle Summary Business focused, hands-on software engineering manager with experience managing technical teams and products in fast evolving consumer services space. Management experience is complemented by extensive technical history as Team Lead, Project Lead, and individual contributor. Focus on building highly-available, fault-tolerant large-scale distributed systems. Experience Adobe Systems - Engineering Manager - 2014-Present Leading an engineering team to develop the Adobe Creative Cloud Assets presence. The team is responsible for building and supporting all aspects from the DevOps/infrastructure layer to the business-logic microservices tier.</p>
         </div>
@@ -97,7 +97,10 @@
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/bootswatch.js"></script>
-    </body>
+    <script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
 
 
