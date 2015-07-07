@@ -27,7 +27,3 @@ edit: clean
 publish: build commit push
 	# Publish locally committed content to master
 	git subtree push --prefix public origin master
-
-publish-nomessage: build commit-nomessage push
-	# Publish locally committed content to master
-	git subtree push --prefix public origin master
