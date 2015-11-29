@@ -6,7 +6,9 @@ draft = false
 menu = ""
 share = true
 title = "Great Engineering, Failed Product"
-image = "/content/2015/11/28/rainier.jpg"
+image = "content/2015/11/28/rainier.jpg"
 +++
+
+
 
 {{< ustream 61491014 >}}

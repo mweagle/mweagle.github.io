@@ -16,7 +16,7 @@ theme = "casper"
   author = "Matt Weagle"
   authorlocation = "Pacific Northwest"
   authorwebsite = "http://mweagle.github.io"
-  
+
   # bio= "CV"
   logo = "images/gravatarSquare.jpg"
   googleAnalyticsUserID = "UA-70794971-1"
