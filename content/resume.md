@@ -4,14 +4,7 @@ title = "Resume"
 slug = "matt-weagle-resume"
 comments = false     # set false to hide Disqus comments
 share = false       # set false to share buttons
-menu = "main"
 +++
-
-<style type = "text/css" scoped>
-  h1, h2, h3, h4, h5, body {
-    font-size: 1.25em;
-  }
-</style>
 
 <table class="table">
   <tbody>
@@ -22,7 +15,6 @@ menu = "main"
     </tr>
   </tbody>
 </table>
-
 
 ## Summary
 
