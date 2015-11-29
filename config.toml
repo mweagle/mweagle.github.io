@@ -1,8 +1,42 @@
 baseurl = "/"
-buildDrafts = "true"
-languageCode = "en-us"
-theme = "hugo-bootswatch"
-title = "Matt Weagle"
+publishdir = "public"
+contentdir = "content"
+LanguageCode= "en-US"
+Title= "Matt Weagle"
+paginate = 5
+DisqusShortname = "mweagle"
+Copyright = "All rights reserved - 2015"
+canonifyurls = true
+theme = "casper"
 
-[blackfriday]
-fractions = false
+
+[params]
+  description = "Word maker"
+  cover = "images/rainierOverlay.jpg"
+  author = "Matt Weagle"
+  authorlocation = "Pacific Northwest"
+  authorwebsite = "http://mweagle.github.io"
+  
+  # bio= "CV"
+  logo = "images/gravatarSquare.jpg"
+  googleAnalyticsUserID = "UA-70794971-1"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  githubName = "mweagle"
+  twitterName = "mweagle"
+  # facebookName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  customHeaderPartial = "custom-header.html"
+  customFooterPartial = "custom-footer.html"
+
+  [[menu.main]]
+    name = "Posts"
+    weight = -120
+    identifier = "posts"
+    url = "/"
+
+  [[menu.main]]
+    name = "Resume"
+    weight = -110
+    identifier = "resume"
+    url = "/resume"

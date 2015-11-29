@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Matt Weagle</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Matt Weagle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Sun, 29 Nov 2015 06:50:17 +0000</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Great Engineering, Failed Product</title>
+      <link>/post/great-engineering-failed-product/</link>
+      <pubDate>Sun, 29 Nov 2015 06:50:17 +0000</pubDate>
+      
+      <guid>/post/great-engineering-failed-product/</guid>
+      <description>&lt;div class=&#34;embed video-player&#34;&gt;
+  &lt;iframe width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.ustream.tv/embed/recorded/61491014?html5ui&#34;
+          allowfullscreen
+          webkitallowfullscreen scrolling=&#34;no&#34;
+          frameborder=&#34;0&#34; style=&#34;border: 0 none transparent;&#34;&gt;
+          &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>my post</title>
+      <link>/post/post-title/</link>
+      <pubDate>Sat, 28 Nov 2015 07:37:10 -0800</pubDate>
+      
+      <guid>/post/post-title/</guid>
+      <description>&lt;p&gt;Hello world&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;json&#34;&gt;{
+  &amp;#34;My Key&amp;#34; : &amp;#34;World&amp;#34;
+}&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
