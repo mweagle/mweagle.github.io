@@ -1,9 +1,10 @@
 +++
 date = "2015-11-29T16:34:56Z"
-title = "Matt Weagle"
+title = "Resume"
 slug = "matt-weagle-resume"
 comments = false     # set false to hide Disqus comments
 share = false       # set false to share buttons
+menu = "main"
 +++
 
 <style type = "text/css" scoped>

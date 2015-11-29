@@ -8,5 +8,8 @@ title = "Great Engineering, Failed Product"
 image = "content/2015/11/28/rainier.jpg"
 +++
 
+It's instructive to think about what failure means.
+
+<!--more-->
 
 {{< ustream 61491014 >}}

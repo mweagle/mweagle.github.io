@@ -1,0 +1,16 @@
+[posts]
+    Name = "Posts"
+    IconClass = "fa-file"
+    Title = "Show list of posts"
+    URL = "/post"
+
+[tags]
+    Name = "Tags"
+    IconClass = "fa-tags"
+    Title = "Show list of tags"
+    URL = "/tags"
+
+[about]
+    Name = "About"
+    IconClass = "fa-info-circle"
+    URL = "matt-weagle-resume/index.html"

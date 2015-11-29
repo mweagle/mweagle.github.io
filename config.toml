@@ -1,42 +1,69 @@
+# hostname (and path) to the root eg. http://spf13.com/
 baseurl = "/"
-publishdir = "public"
-contentdir = "content"
-LanguageCode= "en-US"
-Title= "Matt Weagle"
-paginate = 5
-DisqusShortname = "mweagle"
-Copyright = "All rights reserved - 2015"
-canonifyurls = true
-theme = "casper"
 
+# Site title
+title = "Matt Weagle"
 
+# Copyright
+copyright = "(c) 2015 Matt Wealge"
+
+# Language
+languageCode = "en-EN"
+
+# Metadata format
+# "yaml", "toml", "json"
+metaDataFormat = "toml"
+
+# Theme to use (located in /themes/THEMENAME/)
+theme = "hugo-bootstrap"
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+# Enable Disqus integration
+disqusShortname = "mweagle"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "Matt Weagle"
+    email = "mweagle@gmail.com"
+#
+# All parameters below here are optional and can be mixed and matched.
+#
 [params]
-  description = "Word maker"
-  cover = "images/rainierOverlay.jpg"
-  author = "Matt Weagle"
-  authorlocation = "Pacific Northwest"
-  authorwebsite = "http://mweagle.github.io"
+    # You can use markdown here.
+    brand = "Matt Weagle"
+    topline = "Word Maker"
+    footline = "[The world is concurrent. Things in the world don’t share data. Things communicate with messages. Things fail.](http://www.erlang-embedded.com/why-erlang/)"
 
-  # bio= "CV"
-  logo = "images/gravatarSquare.jpg"
-  googleAnalyticsUserID = "UA-70794971-1"
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  githubName = "mweagle"
-  twitterName = "mweagle"
-  # facebookName = ""
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = false
-  customHeaderPartial = "custom-header.html"
-  customFooterPartial = "custom-footer.html"
+    [params.theme]
+    name = "yeti"
 
-  [[menu.main]]
-    name = "Posts"
-    weight = -120
-    identifier = "posts"
-    url = "/post"
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "Home"
 
-  [[menu.main]]
-    name = "Resume"
-    weight = -110
-    identifier = "resume"
-    url = "/matt-weagle-resume"
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "vs"
+
+    # Google Analytics.
+    googleAnalytics = "UA-70794971-1"
+
+    # Sidebar social links.
+    github = "https://github.com/mweagle" # Your Github profile ID
+    bitbucket = "" # Your Bitbucket profile ID
+    linkedin = "https://www.linkedin.com/in/mweagle" # Your LinkedIn profile ID (from public URL)
+    googleplus = "" # Your Google+ profile ID
+    facebook = "" # Your Facebook profile ID
+    twitter = "mweagle" # Your Twitter profile ID
+    youtube = ""  # Your Youtube channel ID
+    flattr = ""  # populate with your flattr uid
