@@ -39,4 +39,4 @@ theme = "casper"
     name = "Resume"
     weight = -110
     identifier = "resume"
-    url = "/resume"
+    url = "/matt-weagle-resume"
