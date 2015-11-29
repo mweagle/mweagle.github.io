@@ -214,16 +214,24 @@ pre code, pre tt {
     
 
 <div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'mweagle';
-  var disqus_url = '\/post\/great-engineering-failed-product\/';
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
+  <script type="text/javascript">
+  
+
+   var disqus_config = function () {
+       this.page.url = '\/post\/great-engineering-failed-product\/';
+       this.page.identifier = 'Great Engineering, Failed Product';
+       this.page.title = 'Great Engineering, Failed Product';
+   };
+   (function() {
+       var d = document, s = d.createElement('script');
+
+       s.src = '//mweagle.disqus.com/embed.js';
+
+       s.setAttribute('data-timestamp', +new Date());
+       (d.head || d.body).appendChild(s);
+   })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 
 
