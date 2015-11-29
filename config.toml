@@ -33,7 +33,7 @@ theme = "casper"
     name = "Posts"
     weight = -120
     identifier = "posts"
-    url = "/"
+    url = "/post"
 
   [[menu.main]]
     name = "Resume"
