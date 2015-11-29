@@ -252,20 +252,5 @@
 </description>
     </item>
     
-    <item>
-      <title>my post</title>
-      <link>/post/post-title/</link>
-      <pubDate>Sat, 28 Nov 2015 07:37:10 -0800</pubDate>
-      
-      <guid>/post/post-title/</guid>
-      <description>&lt;p&gt;Hello world&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;json&#34;&gt;{
-  &amp;#34;My Key&amp;#34; : &amp;#34;World&amp;#34;
-}&lt;/code&gt;&lt;/pre&gt;
-
-</description>
-    </item>
-    
   </channel>
 </rss>
