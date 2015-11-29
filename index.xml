@@ -5,16 +5,18 @@
     <link>/</link>
     <description>Recent content on Matt Weagle</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>All rights reserved - 2015</copyright>
+    <language>en-EN</language>
+    <managingEditor>mweagle@gmail.com (Matt Weagle)</managingEditor>
+    <webMaster>mweagle@gmail.com (Matt Weagle)</webMaster>
+    <copyright>(c) 2015 Matt Wealge</copyright>
     <lastBuildDate>Sun, 29 Nov 2015 16:34:56 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Matt Weagle</title>
+      <title>Resume</title>
       <link>/matt-weagle-resume/</link>
       <pubDate>Sun, 29 Nov 2015 16:34:56 +0000</pubDate>
-      
+      <author>mweagle@gmail.com (Matt Weagle)</author>
       <guid>/matt-weagle-resume/</guid>
       <description>
 
@@ -236,13 +238,30 @@
     </item>
     
     <item>
-      <title>Great Engineering, Failed Product</title>
-      <link>/post/great-engineering-failed-product/</link>
+      <title>Code sample</title>
+      <link>/2015/11/29/code-sample/</link>
       <pubDate>Sun, 29 Nov 2015 06:50:17 +0000</pubDate>
-      
-      <guid>/post/great-engineering-failed-product/</guid>
-      <description>&lt;div class=&#34;embed video-player&#34;&gt;
-  &lt;iframe width=&#34;640&#34; height=&#34;385&#34; src=&#34;http://www.ustream.tv/embed/recorded/61491014?html5ui&#34;
+      <author>mweagle@gmail.com (Matt Weagle)</author>
+      <guid>/2015/11/29/code-sample/</guid>
+      <description>&lt;p&gt;Using Sparta&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;json&#34;&gt;{
+  &amp;#34;Hello&amp;#34; : &amp;#34;World&amp;#34;
+}&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Great Engineering, Failed Product</title>
+      <link>/2015/11/29/great-engineering-failed-product/</link>
+      <pubDate>Sun, 29 Nov 2015 06:50:17 +0000</pubDate>
+      <author>mweagle@gmail.com (Matt Weagle)</author>
+      <guid>/2015/11/29/great-engineering-failed-product/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s instructive to think about what failure means.&lt;/p&gt;
+
+&lt;div class=&#34;embed video-player&#34;&gt;
+  &lt;iframe width=&#34;100%&#34; src=&#34;http://www.ustream.tv/embed/recorded/61491014?html5ui&#34;
           allowfullscreen
           webkitallowfullscreen scrolling=&#34;no&#34;
           frameborder=&#34;0&#34; style=&#34;border: 0 none transparent;&#34;&gt;
