@@ -22,11 +22,10 @@ push:
 
 edit: clean
 	# Used for localhost editing
-	./hugo server --watch
+	./hugo server --watch --verbose
 
 publish: build commit push
 	# Publish locally committed content to master
 	# http://stevenclontz.com/blog/2014/05/08/git-subtree-push-for-deployment/
 	# git push origin `git subtree split --prefix public site`:master --force
 	git subtree push --prefix public origin master
-

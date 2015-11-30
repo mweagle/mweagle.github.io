@@ -1,0 +1,26 @@
+body {
+  font-size: 1.25em
+}
+
+h1 {
+  font-size: 1.75em
+}
+
+h2 {
+  font-weight:bold;
+  font-size: 1.50em
+}
+
+h3 {
+  font-weight:bold;
+  font-size: 1.25em;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 1.00em
+}
+
+.table th {
+   text-align: center;
+}
