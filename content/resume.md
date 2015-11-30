@@ -58,7 +58,7 @@ Engineering lead for Atom Publishing Protocol solution for rich-content delivery
 
 Project lead for cross-platform installer package compiler that uses an XML input file with declarative semantics to build Windows Installer Packages and proprietary Macintosh OSX archives. Technology was adopted by more than 20 internal teams within a single 18-month product release cycle. Technology uses XML and Regular Expressions to allow users to inductively declare install-time behaviors. Build-pipeline is primarily mixture of Python, XSLT, C++, and C#/Cocoa.  Cross-platform runtime user interface uses embedded Internet Explorer control supported by core DOM published via COM.
 
-#### Computer Scientist - 1999-2004
+### Computer Scientist - 1999-2004
 
 Supported more than a dozen different Windows application installers.  Responsibilities included:
   * Requirements gathering

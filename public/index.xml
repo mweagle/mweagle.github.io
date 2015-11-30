@@ -82,7 +82,7 @@
 
 &lt;p&gt;Project lead for cross-platform installer package compiler that uses an XML input file with declarative semantics to build Windows Installer Packages and proprietary Macintosh OSX archives. Technology was adopted by more than 20 internal teams within a single 18-month product release cycle. Technology uses XML and Regular Expressions to allow users to inductively declare install-time behaviors. Build-pipeline is primarily mixture of Python, XSLT, C++, and C#/Cocoa.  Cross-platform runtime user interface uses embedded Internet Explorer control supported by core DOM published via COM.&lt;/p&gt;
 
-&lt;h4 id=&#34;computer-scientist-1999-2004:c59a67a3c7bc5faa453847420267045e&#34;&gt;Computer Scientist - 1999-2004&lt;/h4&gt;
+&lt;h3 id=&#34;computer-scientist-1999-2004:c59a67a3c7bc5faa453847420267045e&#34;&gt;Computer Scientist - 1999-2004&lt;/h3&gt;
 
 &lt;p&gt;Supported more than a dozen different Windows application installers.  Responsibilities included:
   * Requirements gathering
