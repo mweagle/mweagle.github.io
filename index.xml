@@ -13,7 +13,7 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Resume</title>
+      <title></title>
       <link>/matt-weagle-resume/</link>
       <pubDate>Sun, 29 Nov 2015 16:34:56 +0000</pubDate>
       <author>mweagle@gmail.com (Matt Weagle)</author>
@@ -23,12 +23,12 @@
 &lt;table class=&#34;table&#34;&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;th&gt;&lt;span class=&#34;fa fa-2x fa-envelope-o&#34;&gt;&lt;/span&gt;
-&amp;nbsp;&lt;span class=&#34;lead&#34;&gt;&lt;a href=&#34;mailto:mweagle@gmail.com?subject=Resume follow up&#34; target=&#34;_blank&#34;&gt;mweagle@gmail.com&lt;/a&gt;&lt;/span&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;span class=&#34;fa fa-2x fa-twitter&#34;&gt;&lt;/span&gt;
-&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;lead&#34;&gt;&lt;a href=&#34;http://twitter.com/@mweagle&#34; target=&#34;_blank&#34;&gt;@mweagle&lt;/a&gt;&lt;/span&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;span class=&#34;fa fa-2x fa-github&#34;&gt;&lt;/span&gt;
-&amp;nbsp;&lt;/span&gt;&lt;span class=&#34;lead&#34;&gt;&lt;a href=&#34;http://twitter.com/@mweagle&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;&lt;/span&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;span class=&#34;fa fa-envelope-o&#34;&gt;&lt;/span&gt;
+&amp;nbsp;&lt;a href=&#34;mailto:mweagle@gmail.com?subject=Resume&#34;&gt;E-Mail&lt;/a&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;
+&amp;nbsp;&lt;a href=&#34;http://twitter.com/@mweagle&#34;&gt;Twitter&lt;/a&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;span class=&#34;fa fa-github&#34;&gt;&lt;/span&gt;
+&amp;nbsp;&lt;a href=&#34;https://github.com/mweagle&#34;&gt;GitHub&lt;/a&gt;&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -37,9 +37,11 @@
 
 &lt;p&gt;Business focused, hands-on software engineering manager with experience managing technical teams and products in fast evolving consumer services space.  Management experience is complemented by extensive technical history as Team Lead, Project Lead, and individual contributor.  Focus on building highly-available, fault-tolerant large-scale distributed systems.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;experience:c59a67a3c7bc5faa453847420267045e&#34;&gt;Experience&lt;/h2&gt;
 
-&lt;div class=&#34;well well-sm&#34;&gt;&lt;h3&gt;Adobe Systems - Engineering Manager - 2014-2015&lt;/h3&gt;&lt;/div&gt;
+&lt;h3 id=&#34;engineering-manager-2014-2015:c59a67a3c7bc5faa453847420267045e&#34;&gt;Engineering Manager (2014-2015)&lt;/h3&gt;
 
 &lt;p&gt;Lead engineering team to develop the Adobe &lt;a href=&#34;assets.adobe.com&#34;&gt;Creative Cloud Assets&lt;/a&gt; presence.  The team is responsible for building and supporting all aspects from the DevOps/infrastructure layer to the business-logic microservices tier.  All services are deployed to AWS across multiple accounts and geographies.  In addition to supporting large-scale release events, helped lead a feature-flipper gated system that enabled continual product improvement.  Additional responsibilities included:&lt;/p&gt;
 
@@ -56,7 +58,7 @@
 &lt;li&gt;Establishing lightweight processes to improve delivery cadence and quality&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&#34;well well-sm&#34;&gt;&lt;h3&gt;Adobe Systems - Project Engineering Lead - 2012-2014&lt;/h3&gt;&lt;/div&gt;
+&lt;h3 id=&#34;engineering-lead-2012-2014:c59a67a3c7bc5faa453847420267045e&#34;&gt;Engineering Lead (2012-2014)&lt;/h3&gt;
 
 &lt;p&gt;Lead architect and developer for Adobe Creative Cloud &lt;a href=&#34;https://assets.adobe.com&#34;&gt;Assets&lt;/a&gt; services tier.  Led complete application rewrite (from Ruby to Node.js) and MongoDB database denormalization to alleviate performance bottlenecks.  Updated application lazily twice migrated millions of user datasets with zero downtime.  Also responsible for defining and implementing REST-inspired business logic services.  Additional highlights of my work in this role include:&lt;/p&gt;
 
@@ -66,113 +68,19 @@
 &lt;li&gt;Integrated additional AWS services for improved performance and resiliency&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;environments-technologies:c59a67a3c7bc5faa453847420267045e&#34;&gt;Environments/Technologies&lt;/h4&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-    &lt;td&gt;&lt;a href=&#34;http://aws.amazon.com/products/&#34;&gt;AWS&lt;/a&gt; {ELB, ASG, EC2, CloudTrail, CloudFormation, SQS, DynamoDB, CloudFront, S3, ElastiCache, IAM}&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;https://nodejs.org/&#34;&gt;Node.js&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;docker.io&#34;&gt;Docker&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;https://github.com/coreos/etcd&#34;&gt;etcd&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;https://www.datadoghq.com/&#34;&gt;DataDog&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;http://www.splunk.com/&#34;&gt;Splunk&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;http://www.splunk.com/&#34;&gt;Slack&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;http://www.pagerduty.com/&#34;&gt;PagerDuty&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;http://www.go.cd/&#34;&gt;Go CI&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;https://jenkins-ci.org/&#34;&gt;Jenkins&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;OS X&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;https://www.mongodb.org/&#34;&gt;mongoDB&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&#34;well well-sm&#34;&gt;&lt;h3&gt;Adobe Systems - Senior Computer Scientist&lt;/h3&gt;&lt;/div&gt;
-
-&lt;h4 id=&#34;collaborative-video-editing-product-2010-2012:c59a67a3c7bc5faa453847420267045e&#34;&gt;Collaborative Video Editing Product - 2010-2012&lt;/h4&gt;
+&lt;h3 id=&#34;senior-computer-scientist-2010-2012:c59a67a3c7bc5faa453847420267045e&#34;&gt;Senior Computer Scientist - 2010-2012&lt;/h3&gt;
 
 &lt;p&gt;Developer of real-time, collaborative &lt;a href=&#34;http://www.adobe.com/products/adobeanywhere.html&#34;&gt;video editing product&lt;/a&gt;. The server is delivered as a set of OSGi bundles installed into custom distributions of &lt;a href=&#34;http://sling.apache.org/site/index.html&#34;&gt;Apache Sling&lt;/a&gt; and &lt;a href=&#34;http://www.day.com/day/en/products.html&#34;&gt;Adobe CQ5&lt;/a&gt;. These runtimes embed the &lt;a href=&#34;http://jcp.org/en/jsr/detail?id=283&#34;&gt;Java Content Repository&lt;/a&gt; and provide a NoSQL-style hierarchical storage model together with a &lt;a href=&#34;http://sling.apache.org/site/servlets.html&#34;&gt;HTTP routing mechanism&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Designed and implemented JVM-based job handler. The agent is responsible for consuming JMS messages and delivering them to a locally managed native process. It is also responsible for logfile aggregation, arbitrary process monitoring, and host metric sampling. System statistics are measured using the &lt;a href=&#34;https://support.hyperic.com/display/SIGAR/PTQL&#34;&gt;SIGAR&lt;/a&gt; library, published as JSON-over-HTTP, and visualized using  &lt;a href=&#34;http://dygraphs.com/&#34;&gt;Dygraphs&lt;/a&gt;. The node monitor is written in &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt; using Akka and Apache Camel.&lt;/p&gt;
 
-&lt;h4 id=&#34;environments-technologies-1:c59a67a3c7bc5faa453847420267045e&#34;&gt;Environments/Technologies&lt;/h4&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Java, Scala, OSGi, &lt;a href=&#34;http://akka.io/&#34;&gt;Akka&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;http://camel.apache.org/&#34;&gt;Apache Camel&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;http://sling.apache.org/&#34;&gt;Apache Sling&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;http://activemq.apache.org/&#34;&gt;Apache ActiveMQ&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;https://github.com/basho/webmachine&#34;&gt;Webmachine&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&#34;atompub-based-content-management-system-engineering-lead-2007-2010:c59a67a3c7bc5faa453847420267045e&#34;&gt;AtomPub-based Content Management System - Engineering Lead - 2007-2010&lt;/h4&gt;
+&lt;h3 id=&#34;senior-computer-scientist-lead-2007-2010:c59a67a3c7bc5faa453847420267045e&#34;&gt;Senior Computer Scientist - Lead (2007-2010)&lt;/h3&gt;
 
 &lt;p&gt;Engineering lead for Atom Publishing Protocol solution for rich-content delivery. This end-to-end solution featured a Rich Internet Application media upload tool for batched, localizable uploads to an AtomPub server. The server exposed a REST-compliant API and was built on a stack of Java/Restlet, XQuery, and Lucene. The publish-to-production step featured multiple memory caching strategies (via Ehcache) and a render-to-disk phase to minimize latency. The end-user client was an RIA-based rich media browser that dynamically provisioned UI in response to server state. Rich client included inline video playback, dynamic view theming, and native drag-and-drop functionality.&lt;/p&gt;
 
-&lt;h4 id=&#34;environment-technologies:c59a67a3c7bc5faa453847420267045e&#34;&gt;Environment/Technologies&lt;/h4&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;REST, &lt;a href=&#34;http://martinfowler.com/articles/richardsonMaturityModel.html#level3&#34;&gt;HATEOS&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;http://bitworking.org/projects/atom/rfc5023.html&#34;&gt;AtomPub&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;http://flex.apache.org/&#34;&gt;Apache Flex&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;https://www.sqlite.org/&#34;&gt;SQLite&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Java, &lt;a href=&#34;http://restlet.com/&#34;&gt;Restlet&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;http://www.oracle.com/us/products/database/berkeley-db/xml/overview/index.html&#34;&gt;DB XML&lt;/a&gt;, &lt;a href=&#34;http://www.w3.org/TR/xquery/&#34;&gt;XQuery&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;https://lucene.apache.org/&#34;&gt;Lucene&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&#34;cross-platform-core-installer-compiler-team-lead-2004-2007:c59a67a3c7bc5faa453847420267045e&#34;&gt;Cross-Platform Core Installer Compiler - Team Lead  - 2004-2007&lt;/h4&gt;
+&lt;h3 id=&#34;computer-scientist-lead-2004-2007:c59a67a3c7bc5faa453847420267045e&#34;&gt;Computer Scientist - Lead  - 2004-2007&lt;/h3&gt;
 
 &lt;p&gt;Project lead for cross-platform installer package compiler that uses an XML input file with declarative semantics to build Windows Installer Packages and proprietary Macintosh OSX archives. Technology was adopted by more than 20 internal teams within a single 18-month product release cycle. Technology uses XML and Regular Expressions to allow users to inductively declare install-time behaviors. Build-pipeline is primarily mixture of Python, XSLT, C++, and C#/Cocoa.  Cross-platform runtime user interface uses embedded Internet Explorer control supported by core DOM published via COM.&lt;/p&gt;
-
-&lt;h4 id=&#34;environment-technologies-1:c59a67a3c7bc5faa453847420267045e&#34;&gt;Environment/Technologies&lt;/h4&gt;
-
-&lt;table class=&#34;table&#34;&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C/C++, STL,&lt;a href=&#34;http://www.boost.org/&#34;&gt;Boost&lt;/a&gt;, MFC, Win32/64&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;https://msdn.microsoft.com/en-us/library/cc185688(v=vs.85).aspx&#34;&gt;Windows Installer&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&#34;https://msdn.microsoft.com/en-us/library/windows/desktop/ms694363%28v=vs.85%29.aspx&#34;&gt;COM&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;https://www.sqlite.org/&#34;&gt;SQLite&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
 
 &lt;h4 id=&#34;computer-scientist-1999-2004:c59a67a3c7bc5faa453847420267045e&#34;&gt;Computer Scientist - 1999-2004&lt;/h4&gt;
 
@@ -184,40 +92,40 @@
   * Knowledge transfer
   * Localization/Internationalization&lt;/p&gt;
 
-&lt;div class=&#34;well well-sm&#34;&gt;&lt;h3&gt;InstallShield - Installation Consultant&lt;/h3&gt;&lt;/div&gt;
-
-&lt;h4 id=&#34;consultant-1998-1999:c59a67a3c7bc5faa453847420267045e&#34;&gt;Consultant - 1998 - 1999&lt;/h4&gt;
+&lt;h3 id=&#34;installshield-installation-consultant-1998-1999:c59a67a3c7bc5faa453847420267045e&#34;&gt;InstallShield - Installation Consultant (1998 - 1999)&lt;/h3&gt;
 
 &lt;p&gt;Direct consumer facing role, including project definition, schedule estimate, implementation, and knowledge transfer upon project completion.  Highlights:
   * Envisioned and implemented the &lt;a href=&#34;https://flexeracommunity.force.com/customer/articles/en_US/INFO/Q105236&#34;&gt;WebUpdate&lt;/a&gt; application updating solution which was productized.
   * Concurrently worked with multiple clients to produce installations for their respective products. Successfully delivered high quality results within extreme time constraints.
   * Collaborated with customers to define requirements and specify expected deliverables. Subsequently implemented deliverables with explicit customer approval step.&lt;/p&gt;
 
-&lt;div class=&#34;well well-sm&#34;&gt;&lt;h3&gt;University of Notre Dame&lt;/h3&gt;&lt;/div&gt;
-
-&lt;h4 id=&#34;teaching-assistant-1995-1997:c59a67a3c7bc5faa453847420267045e&#34;&gt;Teaching Assistant - 1995 - 1997&lt;/h4&gt;
+&lt;h3 id=&#34;university-of-notre-dame-teaching-assistant-1995-1997:c59a67a3c7bc5faa453847420267045e&#34;&gt;University of Notre Dame - Teaching Assistant (1995 - 1997)&lt;/h3&gt;
 
 &lt;p&gt;Prepared and delivered lectures designed to supplement core course material. Provided weekly lecture to three different student groups. Received consistently high positive teaching reviews from students.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;education:c59a67a3c7bc5faa453847420267045e&#34;&gt;Education&lt;/h2&gt;
 
-&lt;div class=&#34;well well-sm&#34;&gt;&lt;h3&gt;Certificate Program - University of Washington - 2001 - 2002&lt;/h3&gt;&lt;/div&gt;
+&lt;h3 id=&#34;certificate-program-university-of-washington-2001-2002:c59a67a3c7bc5faa453847420267045e&#34;&gt;Certificate Program - University of Washington - (2001 - 2002)&lt;/h3&gt;
 
 &lt;p&gt;Completed with distinction the University of Washington program in Algorithms and Data Structures. This is a professional degree program in data structures, algorithm complexity, and discrete mathematics&lt;/p&gt;
 
-&lt;div class=&#34;well well-sm&#34;&gt;&lt;h3&gt;Ph.D. Candidate - University of Notre Dame - 1993 - 1997&lt;/h3&gt;&lt;/div&gt;
+&lt;h3 id=&#34;ph-d-candidate-university-of-notre-dame-1993-1997:c59a67a3c7bc5faa453847420267045e&#34;&gt;Ph.D. Candidate - University of Notre Dame (1993 - 1997)&lt;/h3&gt;
 
 &lt;p&gt;Doctoral candidate in Economics with focus on History of Political Economy and Computational Economics.&lt;/p&gt;
 
 &lt;p&gt;Thesis work referenced three interrelated subjects: the history of artificial intelligence and economics researchers, the use of genetic algorithms for nonlinear optimization in economics and complex systems, and a theoretical model of market institutions based on computability theory.  Presented research work on the history of artificial intelligence and economics at American Economic Association 1996 annual meeting.&lt;/p&gt;
 
-&lt;div class=&#34;well well-sm&#34;&gt;&lt;h3&gt;Summer Workshop - Santa Fe Institute - 1996&lt;/h3&gt;&lt;/div&gt;
+&lt;h3 id=&#34;summer-workshop-santa-fe-institute-1996:c59a67a3c7bc5faa453847420267045e&#34;&gt;Summer Workshop - Santa Fe Institute (1996)&lt;/h3&gt;
 
 &lt;p&gt;Attended &lt;a href=&#34;http://zia.hss.cmu.edu/econ/cw96.html&#34;&gt;Computational Economics Workshop&lt;/a&gt; on the role and importance of nonlinear optimization and complexity theory in economics.  Coded genetic algorithm to explore evolutionary optimization concepts applied to market behavior.&lt;/p&gt;
 
-&lt;div class=&#34;well well-sm&#34;&gt;&lt;h3&gt;BA - Bucknell University - 1993&lt;/h3&gt;&lt;/div&gt;
+&lt;h3 id=&#34;ba-bucknell-university-1993:c59a67a3c7bc5faa453847420267045e&#34;&gt;BA - Bucknell University (1993)&lt;/h3&gt;
 
 &lt;p&gt;Majored in Economics with minor in English.  Graduated &lt;em&gt;cum laude&lt;/em&gt; and &lt;em&gt;Phi Beta Kappa&lt;/em&gt; member.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;patents:c59a67a3c7bc5faa453847420267045e&#34;&gt;Patents&lt;/h2&gt;
 
@@ -225,9 +133,56 @@
 &lt;li&gt;&lt;a href=&#34;www.google.com/patents/US8768924&#34;&gt;8768924 - Conflict Resolution in a Media Editing System&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;references:c59a67a3c7bc5faa453847420267045e&#34;&gt;References&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;Available upon &lt;a href=&#34;mailto:mweagle@gmail.com?subject=&#34; title=&#34;References request&#34;&gt;request&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;environments-technologies:c59a67a3c7bc5faa453847420267045e&#34;&gt;Environments/Technologies&lt;/h2&gt;
+
+&lt;table class=&#34;table&#34;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;http://aws.amazon.com/products/&#34;&gt;AWS&lt;/a&gt; {ELB, ASG, EC2, CloudTrail,  &lt;a href=&#34;https://github.com/mweagle/Tereus&#34;&gt;CloudFormation&lt;/a&gt;, SQS, &lt;p/&gt;DynamoDB, CloudFront, S3, ElastiCache, IAM, &lt;a href=&#34;https://github.com/mweagle/Sparta&#34;&gt;Lambda&lt;/a&gt;, API Gateway}&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://nodejs.org/&#34;&gt;Node.js&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;golang&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Java, Scala, OSGi, &lt;a href=&#34;http://akka.io/&#34;&gt;Akka&lt;/a&gt;, &lt;a href=&#34;http://restlet.com/&#34;&gt;Restlet&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;docker.io&#34;&gt;Docker&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://github.com/coreos/etcd&#34;&gt;etcd&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://www.datadoghq.com/&#34;&gt;DataDog&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;http://www.splunk.com/&#34;&gt;Splunk&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;HTTP&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Representational_state_transfer&#34;&gt;REST&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;http://martinfowler.com/articles/richardsonMaturityModel.html#level3&#34;&gt;HATEOS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;http://bitworking.org/projects/atom/rfc5023.html&#34;&gt;AtomPub&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;http://www.splunk.com/&#34;&gt;Slack&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;http://www.pagerduty.com/&#34;&gt;PagerDuty&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;http://www.go.cd/&#34;&gt;Go CI&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://jenkins-ci.org/&#34;&gt;Jenkins&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;https://lucene.apache.org/&#34;&gt;Lucene&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;http://flex.apache.org/&#34;&gt;Apache Flex&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;http://camel.apache.org/&#34;&gt;Apache Camel&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;http://sling.apache.org/&#34;&gt;Apache Sling&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&#34;https://www.sqlite.org/&#34;&gt;SQLite&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;http://www.oracle.com/us/products/database/berkeley-db/xml/overview/index.html&#34;&gt;DB XML&lt;/a&gt;, &lt;a href=&#34;http://www.w3.org/TR/xquery/&#34;&gt;XQuery&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://www.mongodb.org/&#34;&gt;mongoDB&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;C/C++, STL,&lt;a href=&#34;http://www.boost.org/&#34;&gt;Boost&lt;/a&gt;, MFC, Win32/64&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OS X&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
