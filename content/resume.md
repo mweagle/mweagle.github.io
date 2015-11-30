@@ -18,7 +18,7 @@ type = "resume"
 
 ## Summary
 
-Business focused, hands-on software engineering manager with experience managing technical teams and products in fast evolving consumer services space.  Management experience is complemented by extensive technical history as Team Lead, Project Lead, and individual contributor.  Focus on building highly-available, fault-tolerant large-scale distributed systems.
+Customer-focused, hands-on software engineering manager with experience managing technical teams and products in fast evolving consumer services space.  Management experience is complemented by extensive technical history as Team Lead, Project Lead, and individual contributor.  Focus on building highly-available, fault-tolerant large-scale distributed systems.
 
 <hr />
 
