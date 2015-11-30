@@ -41,7 +41,7 @@
 
 &lt;h2 id=&#34;experience:c59a67a3c7bc5faa453847420267045e&#34;&gt;Experience&lt;/h2&gt;
 
-&lt;h3 id=&#34;engineering-manager-2014-2015:c59a67a3c7bc5faa453847420267045e&#34;&gt;Engineering Manager (2014-2015)&lt;/h3&gt;
+&lt;h3 id=&#34;engineering-manager-adobe-2014-2015:c59a67a3c7bc5faa453847420267045e&#34;&gt;Engineering Manager - Adobe (2014-2015)&lt;/h3&gt;
 
 &lt;p&gt;Lead engineering team to develop the Adobe &lt;a href=&#34;assets.adobe.com&#34;&gt;Creative Cloud Assets&lt;/a&gt; presence.  The team is responsible for building and supporting all aspects from the DevOps/infrastructure layer to the business-logic microservices tier.  All services are deployed to AWS across multiple accounts and geographies.  In addition to supporting large-scale release events, helped lead a feature-flipper gated system that enabled continual product improvement.  Additional responsibilities included:&lt;/p&gt;
 
@@ -58,7 +58,7 @@
 &lt;li&gt;Establishing lightweight processes to improve delivery cadence and quality&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;engineering-lead-2012-2014:c59a67a3c7bc5faa453847420267045e&#34;&gt;Engineering Lead (2012-2014)&lt;/h3&gt;
+&lt;h3 id=&#34;engineering-lead-adobe-2012-2014:c59a67a3c7bc5faa453847420267045e&#34;&gt;Engineering Lead - Adobe (2012-2014)&lt;/h3&gt;
 
 &lt;p&gt;Lead architect and developer for Adobe Creative Cloud &lt;a href=&#34;https://assets.adobe.com&#34;&gt;Assets&lt;/a&gt; services tier.  Led complete application rewrite (from Ruby to Node.js) and MongoDB database denormalization to alleviate performance bottlenecks.  Updated application lazily twice migrated millions of user datasets with zero downtime.  Also responsible for defining and implementing REST-inspired business logic services.  Additional highlights of my work in this role include:&lt;/p&gt;
 
@@ -68,38 +68,44 @@
 &lt;li&gt;Integrated additional AWS services for improved performance and resiliency&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;senior-computer-scientist-2010-2012:c59a67a3c7bc5faa453847420267045e&#34;&gt;Senior Computer Scientist - 2010-2012&lt;/h3&gt;
+&lt;h3 id=&#34;senior-computer-scientist-adobe-2010-2012:c59a67a3c7bc5faa453847420267045e&#34;&gt;Senior Computer Scientist - Adobe (2010-2012)&lt;/h3&gt;
 
 &lt;p&gt;Developer of real-time, collaborative &lt;a href=&#34;http://www.adobe.com/products/adobeanywhere.html&#34;&gt;video editing product&lt;/a&gt;. The server is delivered as a set of OSGi bundles installed into custom distributions of &lt;a href=&#34;http://sling.apache.org/site/index.html&#34;&gt;Apache Sling&lt;/a&gt; and &lt;a href=&#34;http://www.day.com/day/en/products.html&#34;&gt;Adobe CQ5&lt;/a&gt;. These runtimes embed the &lt;a href=&#34;http://jcp.org/en/jsr/detail?id=283&#34;&gt;Java Content Repository&lt;/a&gt; and provide a NoSQL-style hierarchical storage model together with a &lt;a href=&#34;http://sling.apache.org/site/servlets.html&#34;&gt;HTTP routing mechanism&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Designed and implemented JVM-based job handler. The agent is responsible for consuming JMS messages and delivering them to a locally managed native process. It is also responsible for logfile aggregation, arbitrary process monitoring, and host metric sampling. System statistics are measured using the &lt;a href=&#34;https://support.hyperic.com/display/SIGAR/PTQL&#34;&gt;SIGAR&lt;/a&gt; library, published as JSON-over-HTTP, and visualized using  &lt;a href=&#34;http://dygraphs.com/&#34;&gt;Dygraphs&lt;/a&gt;. The node monitor is written in &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt; using Akka and Apache Camel.&lt;/p&gt;
 
-&lt;h3 id=&#34;senior-computer-scientist-lead-2007-2010:c59a67a3c7bc5faa453847420267045e&#34;&gt;Senior Computer Scientist - Lead (2007-2010)&lt;/h3&gt;
+&lt;h3 id=&#34;senior-computer-scientist-lead-adobe-2007-2010:c59a67a3c7bc5faa453847420267045e&#34;&gt;Senior Computer Scientist (Lead) - Adobe (2007-2010)&lt;/h3&gt;
 
 &lt;p&gt;Engineering lead for Atom Publishing Protocol solution for rich-content delivery. This end-to-end solution featured a Rich Internet Application media upload tool for batched, localizable uploads to an AtomPub server. The server exposed a REST-compliant API and was built on a stack of Java/Restlet, XQuery, and Lucene. The publish-to-production step featured multiple memory caching strategies (via Ehcache) and a render-to-disk phase to minimize latency. The end-user client was an RIA-based rich media browser that dynamically provisioned UI in response to server state. Rich client included inline video playback, dynamic view theming, and native drag-and-drop functionality.&lt;/p&gt;
 
-&lt;h3 id=&#34;computer-scientist-lead-2004-2007:c59a67a3c7bc5faa453847420267045e&#34;&gt;Computer Scientist - Lead  - 2004-2007&lt;/h3&gt;
+&lt;h3 id=&#34;computer-scientist-lead-adobe-2004-2007:c59a67a3c7bc5faa453847420267045e&#34;&gt;Computer Scientist (Lead) - Adobe (2004-2007)&lt;/h3&gt;
 
 &lt;p&gt;Project lead for cross-platform installer package compiler that uses an XML input file with declarative semantics to build Windows Installer Packages and proprietary Macintosh OSX archives. Technology was adopted by more than 20 internal teams within a single 18-month product release cycle. Technology uses XML and Regular Expressions to allow users to inductively declare install-time behaviors. Build-pipeline is primarily mixture of Python, XSLT, C++, and C#/Cocoa.  Cross-platform runtime user interface uses embedded Internet Explorer control supported by core DOM published via COM.&lt;/p&gt;
 
-&lt;h3 id=&#34;computer-scientist-1999-2004:c59a67a3c7bc5faa453847420267045e&#34;&gt;Computer Scientist - 1999-2004&lt;/h3&gt;
+&lt;h3 id=&#34;computer-scientist-adobe-1999-2004:c59a67a3c7bc5faa453847420267045e&#34;&gt;Computer Scientist - Adobe (1999-2004)&lt;/h3&gt;
 
-&lt;p&gt;Supported more than a dozen different Windows application installers.  Responsibilities included:
-  * Requirements gathering
-  * Primary implementation
-  * Continuous delivery/integration
-  * Enterprise support
-  * Knowledge transfer
-  * Localization/Internationalization&lt;/p&gt;
+&lt;p&gt;Supported more than a dozen different Windows application installers.  Responsibilities included:&lt;/p&gt;
 
-&lt;h3 id=&#34;installshield-installation-consultant-1998-1999:c59a67a3c7bc5faa453847420267045e&#34;&gt;InstallShield - Installation Consultant (1998 - 1999)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Requirements gathering&lt;/li&gt;
+&lt;li&gt;Primary implementation&lt;/li&gt;
+&lt;li&gt;Continuous delivery/integration&lt;/li&gt;
+&lt;li&gt;Enterprise support&lt;/li&gt;
+&lt;li&gt;Knowledge transfer&lt;/li&gt;
+&lt;li&gt;Localization/Internationalization&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Direct consumer facing role, including project definition, schedule estimate, implementation, and knowledge transfer upon project completion.  Highlights:
-  * Envisioned and implemented the &lt;a href=&#34;https://flexeracommunity.force.com/customer/articles/en_US/INFO/Q105236&#34;&gt;WebUpdate&lt;/a&gt; application updating solution which was productized.
-  * Concurrently worked with multiple clients to produce installations for their respective products. Successfully delivered high quality results within extreme time constraints.
-  * Collaborated with customers to define requirements and specify expected deliverables. Subsequently implemented deliverables with explicit customer approval step.&lt;/p&gt;
+&lt;h3 id=&#34;installation-consultant-installshield-1998-1999:c59a67a3c7bc5faa453847420267045e&#34;&gt;Installation Consultant - InstallShield (1998 - 1999)&lt;/h3&gt;
 
-&lt;h3 id=&#34;university-of-notre-dame-teaching-assistant-1995-1997:c59a67a3c7bc5faa453847420267045e&#34;&gt;University of Notre Dame - Teaching Assistant (1995 - 1997)&lt;/h3&gt;
+&lt;p&gt;Direct consumer facing role, including project definition, schedule estimate, implementation, and knowledge transfer upon project completion.  Highlights:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Designed and implemented WebUpdate application updating solution which was later monetized.&lt;/li&gt;
+&lt;li&gt;Concurrently worked with multiple clients to produce installations for their respective products. Successfully delivered high quality results within extreme time constraints.&lt;/li&gt;
+&lt;li&gt;Collaborated with customers to define requirements and specify expected deliverables. Subsequently implemented deliverables with explicit customer approval step.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;teaching-assistant-university-of-notre-dame-1995-1997:c59a67a3c7bc5faa453847420267045e&#34;&gt;Teaching Assistant - University of Notre Dame (1995 - 1997)&lt;/h3&gt;
 
 &lt;p&gt;Prepared and delivered lectures designed to supplement core course material. Provided weekly lecture to three different student groups. Received consistently high positive teaching reviews from students.&lt;/p&gt;
 

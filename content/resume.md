@@ -24,7 +24,7 @@ Business focused, hands-on software engineering manager with experience managing
 
 ## Experience
 
-### Engineering Manager (2014-2015)
+### Engineering Manager - Adobe (2014-2015)
 
 Lead engineering team to develop the Adobe [Creative Cloud Assets](assets.adobe.com) presence.  The team is responsible for building and supporting all aspects from the DevOps/infrastructure layer to the business-logic microservices tier.  All services are deployed to AWS across multiple accounts and geographies.  In addition to supporting large-scale release events, helped lead a feature-flipper gated system that enabled continual product improvement.  Additional responsibilities included:
 
@@ -36,7 +36,7 @@ Lead engineering team to develop the Adobe [Creative Cloud Assets](assets.adobe.
   * Providing direct operational support for all developed services (i.e.: ["You build it, you run it"](http://queue.acm.org/detail.cfm?id=1142065))
   * Establishing lightweight processes to improve delivery cadence and quality
 
-### Engineering Lead (2012-2014)
+### Engineering Lead - Adobe (2012-2014)
 
 Lead architect and developer for Adobe Creative Cloud [Assets](https://assets.adobe.com) services tier.  Led complete application rewrite (from Ruby to Node.js) and MongoDB database denormalization to alleviate performance bottlenecks.  Updated application lazily twice migrated millions of user datasets with zero downtime.  Also responsible for defining and implementing REST-inspired business logic services.  Additional highlights of my work in this role include:
 
@@ -44,23 +44,24 @@ Lead architect and developer for Adobe Creative Cloud [Assets](https://assets.ad
   * Designed [restify](http://mcavage.me/node-restify/)-backed core workflow engine to minimize response latency during HTTP reqeuest handling
   * Integrated additional AWS services for improved performance and resiliency
 
-### Senior Computer Scientist - 2010-2012
+### Senior Computer Scientist - Adobe (2010-2012)
 
 Developer of real-time, collaborative [video editing product](http://www.adobe.com/products/adobeanywhere.html). The server is delivered as a set of OSGi bundles installed into custom distributions of [Apache Sling](http://sling.apache.org/site/index.html) and [Adobe CQ5](http://www.day.com/day/en/products.html). These runtimes embed the [Java Content Repository](http://jcp.org/en/jsr/detail?id=283) and provide a NoSQL-style hierarchical storage model together with a [HTTP routing mechanism](http://sling.apache.org/site/servlets.html).
 
 Designed and implemented JVM-based job handler. The agent is responsible for consuming JMS messages and delivering them to a locally managed native process. It is also responsible for logfile aggregation, arbitrary process monitoring, and host metric sampling. System statistics are measured using the [SIGAR](https://support.hyperic.com/display/SIGAR/PTQL) library, published as JSON-over-HTTP, and visualized using  [Dygraphs](http://dygraphs.com/). The node monitor is written in [Scala](http://www.scala-lang.org/) using Akka and Apache Camel.
 
-### Senior Computer Scientist - Lead (2007-2010)
+### Senior Computer Scientist (Lead) - Adobe (2007-2010)
 
 Engineering lead for Atom Publishing Protocol solution for rich-content delivery. This end-to-end solution featured a Rich Internet Application media upload tool for batched, localizable uploads to an AtomPub server. The server exposed a REST-compliant API and was built on a stack of Java/Restlet, XQuery, and Lucene. The publish-to-production step featured multiple memory caching strategies (via Ehcache) and a render-to-disk phase to minimize latency. The end-user client was an RIA-based rich media browser that dynamically provisioned UI in response to server state. Rich client included inline video playback, dynamic view theming, and native drag-and-drop functionality.
 
-### Computer Scientist - Lead  - 2004-2007
+### Computer Scientist (Lead) - Adobe (2004-2007)
 
 Project lead for cross-platform installer package compiler that uses an XML input file with declarative semantics to build Windows Installer Packages and proprietary Macintosh OSX archives. Technology was adopted by more than 20 internal teams within a single 18-month product release cycle. Technology uses XML and Regular Expressions to allow users to inductively declare install-time behaviors. Build-pipeline is primarily mixture of Python, XSLT, C++, and C#/Cocoa.  Cross-platform runtime user interface uses embedded Internet Explorer control supported by core DOM published via COM.
 
-### Computer Scientist - 1999-2004
+### Computer Scientist - Adobe (1999-2004)
 
 Supported more than a dozen different Windows application installers.  Responsibilities included:
+
   * Requirements gathering
   * Primary implementation
   * Continuous delivery/integration
@@ -68,14 +69,15 @@ Supported more than a dozen different Windows application installers.  Responsib
   * Knowledge transfer
   * Localization/Internationalization
 
-### InstallShield - Installation Consultant (1998 - 1999)
+### Installation Consultant - InstallShield (1998 - 1999)
 
 Direct consumer facing role, including project definition, schedule estimate, implementation, and knowledge transfer upon project completion.  Highlights:
-  * Envisioned and implemented the [WebUpdate](https://flexeracommunity.force.com/customer/articles/en_US/INFO/Q105236) application updating solution which was productized.
+
+  * Designed and implemented WebUpdate application updating solution which was later monetized.
   * Concurrently worked with multiple clients to produce installations for their respective products. Successfully delivered high quality results within extreme time constraints.
   * Collaborated with customers to define requirements and specify expected deliverables. Subsequently implemented deliverables with explicit customer approval step.
 
-### University of Notre Dame - Teaching Assistant (1995 - 1997)
+### Teaching Assistant - University of Notre Dame (1995 - 1997)
 
 Prepared and delivered lectures designed to supplement core course material. Provided weekly lecture to three different student groups. Received consistently high positive teaching reviews from students.
 
