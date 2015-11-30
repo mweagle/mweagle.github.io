@@ -1,26 +1,30 @@
 body {
-  font-size: 1.25em
+  font-size: 120%;
 }
 
 h1 {
-  font-size: 1.75em
+  font-size: 150%
 }
 
 h2 {
   font-weight:bold;
-  font-size: 1.50em
+  font-size: 135%
 }
 
 h3 {
   font-weight:bold;
-  font-size: 1.25em;
+  font-size: 110%;
   font-style: italic;
 }
 
 h4 {
-  font-size: 1.00em
+  font-size: 100%
 }
 
 .table th {
    text-align: center;
+}
+
+.table {
+  font-size: 90%;
 }
